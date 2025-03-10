@@ -90,7 +90,7 @@ const PriceCalculator: React.FC = () => {
               <div className="flex justify-center mt-12">
                 <button
                   onClick={handleNext}
-                  className="bg-brand-blue hover:bg-brand-blue/90 text-white py-3 px-8 rounded-full font-medium transition-all duration-300 flex items-center"
+                  className="bg-pink-500 hover:bg-pink-600 text-white py-3 px-8 rounded-full font-medium transition-all duration-300 flex items-center"
                 >
                   Start nå <ArrowRight size={18} className="ml-2" />
                 </button>
@@ -232,7 +232,7 @@ const PriceCalculator: React.FC = () => {
                 <div className="flex justify-center mt-8">
                   <button
                     onClick={handleNext}
-                    className="bg-brand-blue hover:bg-brand-blue/90 text-white py-3 px-8 rounded-full font-medium transition-all duration-300 flex items-center"
+                    className="bg-pink-500 hover:bg-pink-600 text-white py-3 px-8 rounded-full font-medium transition-all duration-300 flex items-center"
                   >
                     Fortsett <ArrowRight size={18} className="ml-2" />
                   </button>

@@ -4,7 +4,7 @@ import PriceCalculator from '@/components/PriceCalculator';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-brand-dark">
+    <div className="min-h-screen bg-white">
       <PriceCalculator />
     </div>
   );

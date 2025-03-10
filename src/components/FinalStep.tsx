@@ -41,7 +41,7 @@ const FinalStep: React.FC<FinalStepProps> = ({ onSubmit }) => {
   return (
     <div className="animate-fade-in w-full">
       <h2 className="text-center text-3xl font-semibold mb-2">
-        Du er ett <span className="text-brand-blue">klikk</span> 
+        Du er ett <span className="text-pink-500">klikk</span> 
         <br />ifra å få ditt pris!
       </h2>
       <p className="text-center text-muted-foreground mb-8">
@@ -51,7 +51,7 @@ const FinalStep: React.FC<FinalStepProps> = ({ onSubmit }) => {
       <form onSubmit={handleSubmit} className="space-y-4 max-w-md mx-auto">
         <div className="space-y-2">
           <label htmlFor="name" className="block text-sm font-medium">
-            Navn <span className="text-brand-blue">*</span>
+            Navn <span className="text-pink-500">*</span>
           </label>
           <input
             id="name"
@@ -67,7 +67,7 @@ const FinalStep: React.FC<FinalStepProps> = ({ onSubmit }) => {
 
         <div className="space-y-2">
           <label htmlFor="email" className="block text-sm font-medium">
-            E-postadresse <span className="text-brand-blue">*</span>
+            E-postadresse <span className="text-pink-500">*</span>
           </label>
           <input
             id="email"
@@ -83,7 +83,7 @@ const FinalStep: React.FC<FinalStepProps> = ({ onSubmit }) => {
 
         <div className="space-y-2">
           <label htmlFor="phone" className="block text-sm font-medium">
-            Telefonnummer <span className="text-brand-blue">*</span>
+            Telefonnummer <span className="text-pink-500">*</span>
           </label>
           <input
             id="phone"
@@ -118,7 +118,7 @@ const FinalStep: React.FC<FinalStepProps> = ({ onSubmit }) => {
 
         <button
           type="submit"
-          className="w-full mt-6 bg-brand-blue hover:bg-brand-blue/90 text-white py-3 px-4 rounded-full font-medium transition-all duration-300 flex items-center justify-center"
+          className="w-full mt-6 bg-pink-500 hover:bg-pink-600 text-white py-3 px-4 rounded-full font-medium transition-all duration-300 flex items-center justify-center"
         >
           Se ditt pris direkt <ArrowRight size={18} className="ml-2" />
         </button>
